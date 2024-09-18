@@ -62,7 +62,7 @@ import java.util.Map;
 @Component
 public final class MerchantAdminChainContext<T> implements ApplicationContextAware, CommandLineRunner {
 
-    /**
+     /**
      * 应用上下文，我们这里通过 Spring IOC 获取 Bean 实例
      */
     private ApplicationContext applicationContext;
